@@ -1,15 +1,15 @@
 {
   "name": "unhead-vue-2",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@unhead/vue": "^1.11.2",
     "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "vue": "^2.7.16"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

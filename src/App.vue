@@ -12,6 +12,17 @@ export default {
   name: 'App',
   components: {
     HelloWorld
+  },
+  data() {
+    return {
+      title: 'Unhead Test for Vue 2',
+    }
+  },
+  head() {
+    return {
+      title: 'Unhead Test for Vue 2',
+      // title: this.title,
+    }
   }
 }
 </script>
