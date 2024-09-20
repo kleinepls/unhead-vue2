@@ -15,13 +15,14 @@ export default {
   },
   data() {
     return {
-      title: 'Unhead Test for Vue 2',
+      meta: {
+        title: 'Unhead Test for Vue 2',
+      }
     }
   },
   head() {
     return {
-      title: 'Unhead Test for Vue 2',
-      // title: this.title,
+      title: this.meta.title,
     }
   }
 }
